@@ -1,0 +1,45 @@
+GIT
+  remote: https://github.com/coinbase/temporal-ruby.git
+  revision: c60c0dd826136ec2e8d5e74dad031056fd677f4b
+  specs:
+    temporal-ruby (0.0.2)
+      grpc
+      oj
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.5.0)
+    google-protobuf (3.23.2-arm64-darwin)
+    googleapis-common-protos-types (1.6.0)
+      google-protobuf (~> 3.14)
+    grpc (1.55.0)
+      google-protobuf (~> 3.23)
+      googleapis-common-protos-types (~> 1.0)
+    oj (3.15.0)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.0)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  rspec
+  temporal-ruby!
+
+RUBY VERSION
+   ruby 3.2.2p53
+
+BUNDLED WITH
+   2.2.22
